@@ -1,0 +1,14 @@
+.createPostWrapper {
+	width: 100%;
+	min-height: 500px;
+	margin-top: 10px;
+}
+
+#title {
+	width: 80%;
+}
+
+.err {
+	font-size: 2rem;
+	color: red;
+}

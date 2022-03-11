@@ -1,0 +1,99 @@
+.headerWrapper {
+	margin: 0 auto;
+	box-shadow: -1px 3px 7px 1px rgba(0, 0, 0, 0.18);
+	-webkit-box-shadow: -1px 3px 7px 1px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: -1px 3px 7px 1px rgba(0, 0, 0, 0.18);
+}
+.headerContainer {
+	display: flex;
+	max-width: 1140px;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding: 5px 0;
+	font-size: 1.6rem;
+}
+
+.headerLogo {
+	height: 21px;
+	width: 62px;
+	margin-right: 64px;
+}
+
+.headerLeft {
+	display: flex;
+	flex: 1;
+}
+
+.headerLink {
+	text-decoration: none;
+	font-weight: 500;
+	color: #a4a4a4;
+	margin-right: 4rem;
+}
+.headerLink:hover {
+	color: #333;
+}
+
+.active {
+	color: #333;
+}
+
+.headerRight {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerSearch {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.searchInput {
+	outline: none;
+	border: 1px solid #d6d6d6;
+	height: 4.2rem;
+	line-height: 1;
+	width: 100%;
+	padding: 0.65rem calc(45px + 1.5rem) 0.65rem 1.5rem;
+	font-size: 1.6rem;
+}
+.searchIcon {
+	background-color: #5588c7;
+	height: 4.2rem;
+	display: flex;
+	align-items: center;
+	padding: 0 5px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.searchInput:focus {
+	outline: 1px solid #5588c7;
+}
+.headerLogin {
+	display: flex;
+	align-content: center;
+}
+
+.headerLoginLink {
+	text-decoration: none;
+	color: #5488c7;
+}
+.headerLoginLink:hover {
+	opacity: 0.7;
+}
+
+.signInlogo {
+	height: 50px;
+}
+
+.signIn {
+	display: flex;
+	flex-direction: column;
+	
+}

@@ -1,0 +1,17 @@
+.userAvatar {
+	height: 37px;
+	width: 37px;
+	border-radius: 50%;
+}
+
+.userInfo {
+	display: flex;
+	align-items: center;
+}
+.postComments {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: start;
+	font-size: 1.4rem;
+}

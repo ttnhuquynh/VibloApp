@@ -1,0 +1,47 @@
+.footerWrapper {
+	background-color: #0a1a33;
+	padding: 16px 0;
+}
+
+.footerLink {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.4rem;
+	display: block;
+	padding: 8px 0;
+}
+
+.footerTitle {
+	color: #fff;
+	font-size: 1.7rem;
+}
+
+.footerLinkIcon {
+	height: 24px;
+	width: 24px;
+	margin-right: 8px;
+}
+
+.footerConnect {
+	width: 100%;
+}
+
+.footerConnectLink {
+	width: 100%;
+}
+.appstoreLink {
+	padding: 10px;
+}
+
+.QRlink {
+	padding: 10px;
+	justify-content: c;
+}
+
+.footerTitle {
+	text-transform: uppercase;
+}
+
+.hrLine {
+	background-color: #fff;
+}
